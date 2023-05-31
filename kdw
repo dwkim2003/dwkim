@@ -1,0 +1,15 @@
+#inculde <stdio.h>
+
+{
+     for(int i=0;i<30;i++)
+           printf("*");
+}
+
+int main(void)
+{
+     printf_stars();
+     printf("\nHello World\n");
+     printf_stars();
+     printf("\n");
+     return0;
+}
