@@ -1,0 +1,50 @@
+
+//구조체
+/*#include <stdio.h>
+
+struct STU
+{
+	char name[15];
+	float grade;
+};
+
+int main()
+{
+	struct STU s1 = {"홍길동",99.9};  //s1(변수)은 학생 이름
+
+	printf("이름:%s 성적:%.1f", s1.name, s1.grade);  //%s=이름
+
+	return 0;
+}*/
+
+//포인터
+/*#include <stdio.h>
+
+int main()
+{
+	int A;
+	A = 1004;
+	printf("%d,주소=%p", A, &A);
+
+	return 0;
+}*/
+
+//알고리즘을 특정언어를 사용하여 코딩
+/*#include <stdio.h>
+
+int main()
+{
+	int score[5] = {100,80,70,90,71};
+	int i, tmp;
+	tmp = score[0];
+	for (i = 1; i < 5; i++) {
+		if (score[i] > tmp) {
+			tmp = score[i];
+		}
+	}
+	printf("%d", tmp);
+	return 0;
+}*/
+
+
+

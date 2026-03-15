@@ -1,0 +1,116 @@
+/*#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+void main(void)
+{
+	clock_t start, finish;
+	double duration;
+	start = clock();
+	//실행 시간을 측정하고자 하는 코드...
+	//...
+	finish = clock();
+	duration = (double)(finish - start) / CLOCKS_PER_SEC;
+	printf("%f 초입니다.\n", duration);
+
+	return 0;
+}*/
+
+/*#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main(void)
+{
+    clock_t start, finish;
+    double duration;
+
+    int i;
+    int sum = 0;
+
+    start = clock();
+
+    for (i = 1; i <= 100; i++)
+    {
+        sum += 1;
+        printf("%d\n", i);
+    }
+
+    finish = clock();
+
+    duration = (double)(finish - start) / CLOCKS_PER_SEC;
+
+    printf("실행 시간: %f 초입니다.\n", duration);
+
+    return 0;
+}//챗지피티 사용한 코드*/
+
+/*#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+void main(void){
+    clock_t start, finish;
+    double duration;
+    int i;
+    int sum = 0;
+    start = clock();
+    for (i = 1; i < 101; i++)   //실행 시간을 측정하고자 하는 코드
+    {
+        sum += i;
+        printf("%d\n", sum);
+    } //실행 시간을 측정하고자 하는 코드
+    finish = clock();
+    duration = (double)(finish - start) / CLOCKS_PER_SEC;
+    printf("%f 초입니다.\n", duration);
+
+    return 0;
+}*/
+
+/*#define MAT_ELEMENTS 100    //알고리즘의 기술 방법(4) 연습 코드
+int score[MAT_ELEMENTS];
+
+int find_max_score(int n)
+{
+    int i, tmp;
+    tmp = score[0];
+    for (i = 1; i < n; i++)
+    {
+        if (score[i] > tmp)
+        {
+            tmp = score[i];
+        }
+    }
+    return tmp;
+}*/
+
+/*#define MAT_ELEMENTS 10    //알고리즘의 기술 방법(4) 연습 코드
+int score[MAT_ELEMENTS/*10*//*];*/
+/*#include <stdio.h>
+#include <stdlib.h>
+
+int score[10] = { 99,100,210,900,700,59,7,8,9,10 };
+int find_max_score(int n)
+{
+    int i, tmp;
+    tmp = score[0];
+    for (i = 1; i < n; i++)
+    {
+        if (score[i] > tmp)
+        {
+            tmp = score[i];
+        }
+    }
+    return tmp;
+}
+int main()
+{
+    /*int score[10] = {99,100,210,900,700,59,7,8,9,10};*/
+    /*int max;
+    max=find_max_score(10);
+    
+    printf("%d\n", max);
+
+    return 0;
+}*/
+
